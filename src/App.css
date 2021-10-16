@@ -1,38 +1,265 @@
-.App {
-  text-align: center;
-}
+/* App-level styles */
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.App{
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  background-color: #595353;
 }
 
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
+/* Link reset */
+a {
+  color:inherit;
+  text-decoration: none;
+}
+
+/* Navbar styles */
+
+.Navbar {
+  display: flex;
+  position: absolute;
+  left: 1.5em;
+  top: 1em;
+  justify-content: space-between;
+  width: 70%;
+  font-size: 1.4em;
+}
+
+.Socials {
+  display:flex;
+}
+
+.Social-icon {
+  color: #b4b4b4;
+  margin-left: 0.5em;
+  transition-duration: 0.2s;
+}
+
+.Social-icon:hover {
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Sidenav styles */
+
+.Sidenav {
+  position: absolute;
+  left: 1.5em;
+  top: 60%;
+}
+
+.Sidenav-list {
+  list-style-type: none;
+}
+
+.active-menu {
+  color: #fff;
+  font-size: 1.2em;
+}
+
+.inactive-menu {
+  color: #b4b4b4;
+  font-size: 1.0em;
+  transition-duration: 0.3s;
+}
+
+.inactive-menu:hover {
+  cursor: pointer;
+  color: #fff;
+  font-size: 1.2em;
+}
+
+/* Page styles */
+
+.content-container {
+  margin: auto;
+  max-width: 65vw;
+}
+
+.active-page {
+  margin-top: 20%;
+  z-index: 1;
+  opacity: 100%;
+}
+
+.inactive-page {
+  display: none;
+}
+
+/* Home styles */
+
+.home-container {
+  display:flex;
+}
+
+.home-header {
+  animation: fadeIn 1s;
+}
+
+.home-text {
+  animation: fadeInDelay 1.2s;
+}
+
+.home-resume {
+  animation: fadeInDelay 1.3s;
+}
+/* Portfolio styles */
+
+
+.active-presentation {
+  display: flex;
+  min-height: 40vh;
+}
+
+.inactive-presentation {
+  display: none;
+}
+
+.portfolio-video {
+  padding-left: 2em;
+  display: block;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-top: 2em;
+  border-width:0;
+  width: 30vw;
+  height: 30vh; 
+  animation: fadeInDelay 1.2s;
+}
+
+.portfolio-text {
+  
+}
+
+/* Testimonial styles */
+
+.testimonial-header {
+  animation: fadeIn 1s
+}
+
+.testimonial-text {
+  font-size: 0.9em;
+  margin-bottom: 2em;
+  animation: fadeInDelay 1.2s
+}
+
+.testimonial-testifier {
+  text-align: right;
+  font-size: 0.8em;
+  animation: fadeInDelay 1.2s;
+}
+
+/* UI elements */
+
+.content-nav {
+  display: flex;
+  justify-content: space-around;
+  width: 20%;
+  margin: auto
+}
+
+.nav-dots {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+}
+
+.active-dot {
+  height: 15px;
+  width: 15px;
+  margin: auto;
+  background-color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+.inactive-dot {
+  height: 15px;
+  width: 15px;
+  margin: auto;
+  background-color: #b4b4b4;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+.inactive-dot:hover {
+  cursor: pointer;
+  background-color: #fff;
+ 
+}
+
+.nav-arrow {
+  color: #b4b4b4;
+  transition-duration: 0.2s ease;
+}
+
+.nav-arrow:hover {
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Media query */
+
+@media (max-width: 600px) {
+  .portfolio-container {
+    display: block;
+  }
+}
+
+/* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
+} */
+
+
+/*Animations */
+
+@keyframes fadeIn {
+  0% {opacity:0; transform: translate(0px, -0.6em)}
+  100% {opacity:1; transform: translate(0px, 0px)}
+
+}
+
+@keyframes fadeInDelay {
+  0% {opacity:0; transform: translate(0px, -0.6em)}
+  20% {opacity:0; transform: translate(0px, -0.6em)}
+  100% {opacity:1; transform: translate(0px, 0px)}
+
+}
+
+@keyframes fadeOut {
+  0% {display:block; opacity: 1;}
+  100% {display:none; opacity: 0;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
 }
