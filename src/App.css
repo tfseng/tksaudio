@@ -115,6 +115,7 @@ a {
 .active-presentation {
   display: flex;
   min-height: 40vh;
+  opacity: 100%;
 }
 
 .inactive-presentation {
