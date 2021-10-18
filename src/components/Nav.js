@@ -64,7 +64,7 @@ function Nav() {
     }
 
   return (   
-      <div>
+      <div className = "nav-container">
         <Navbar page = {pageState}/>
         <Content page = {pageState}/>
 
