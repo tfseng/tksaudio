@@ -3,6 +3,7 @@ import Portfolio from './Contents/Portfolio'
 import Home from './Contents/Home'
 import Testimonials from './Contents/Testimonials'
 import Reel from './Contents/Reel'
+import Contact from './Contents/Contact'
 
 function Content(props) {
 
@@ -12,6 +13,7 @@ function Content(props) {
             <Testimonials page = {props.page}/>
             <Portfolio page = {props.page}/>
             <Reel page = {props.page} />
+            <Contact page = {props.page} />
           </div>
     )
 }

@@ -41,6 +41,12 @@ a {
   z-index: 1;
 }
 
+.logo {
+  padding: 0.8em;
+  background-size: cover;
+  cursor: pointer;
+}
+
 .Socials {
   display:flex;
 }
@@ -169,6 +175,13 @@ a {
   animation: fadeInDelay 1.2s;
 }
 
+/* Contact Styles */
+
+.contact-text {
+  min-width: 65vw;
+  animation: fadeInDelay 1.2s
+}
+
 /* UI elements */
 
 .content-nav {
@@ -186,8 +199,8 @@ a {
 }
 
 .active-dot {
-  height: 15px;
-  width: 15px;
+  height: 0.7vw;
+  width: 0.7vw;
   margin: auto;
   background-color: #fff;
   border-radius: 50%;
@@ -196,8 +209,8 @@ a {
 }
 
 .inactive-dot {
-  height: 15px;
-  width: 15px;
+  height: 0.7vw;
+  width: 0.7vw;
   margin: auto;
   background-color: #b4b4b4;
   border-radius: 50%;
