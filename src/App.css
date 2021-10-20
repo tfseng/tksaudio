@@ -154,9 +154,12 @@ a {
 }
 
 .portfolio-text {
-  
+  font-size: 0.8em;
 }
 
+.portfolio-header {
+  font-size: 1.5em;
+}
 /* Testimonial styles */
 
 .testimonial-header {

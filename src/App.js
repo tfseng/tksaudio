@@ -1,7 +1,6 @@
 import './App.css';
 import Nav from './components/Nav'
-import background from "./assets/bg_test_5.png";
-import { faBorderNone } from '@fortawesome/free-solid-svg-icons';
+import background from "./assets/bg.png";
 
 function App() {
   return (

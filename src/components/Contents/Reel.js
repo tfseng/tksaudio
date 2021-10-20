@@ -9,12 +9,12 @@ function Reel(props) {
         <div className = {props.page.reel.page}>
             <div className = "active-presentation">
                 <div className = "portfolio-container">
-                    <h1 className = "portfolio-header">Demo Reel</h1>
-                    <p className = "portfolio-text">I’m a junior year undergraduate student at Berklee College of Music, and an aspiring audio producer, sound designer and composer. Welcome to view my portfolio of works.</p>
+                    <h1 className = "portfolio-header">Game Audio Demo Reel</h1>
+                    <p className = "portfolio-text">Here is my Game Audio Demo Reel that I have created by editing and compiling clips from my other Game Audio Showcases. Enjoy!</p>
                 </div>
                 <div>
                     <iframe title = "video" className = "portfolio-video"
-                        src="https://www.youtube.com/embed/tgbNymZ7vqY" allowFullScreen="allowFullScreen"
+                        src="https://www.youtube.com/embed/y55-WfPsjTw" allowFullScreen="allowFullScreen"
                         mozallowfullscreen="mozallowfullscreen" 
                         msallowfullscreen="msallowfullscreen" 
                         oallowfullscreen="oallowfullscreen" 
