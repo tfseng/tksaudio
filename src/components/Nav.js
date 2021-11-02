@@ -20,13 +20,14 @@ function Nav() {
     reel: inactiveClass,
     portfolio: inactiveClass,
     testimonial: inactiveClass,
-    contact: inactiveClass
+    contact: inactiveClass,
+    music: inactiveClass
   });
 
   function setHome() {
       setPage(state => {
         return {home: activeClass, reel: inactiveClass, portfolio: inactiveClass, testimonial: inactiveClass,
-          contact: inactiveClass};
+          contact: inactiveClass, music: inactiveClass};
           }
         ); 
       }
@@ -34,7 +35,7 @@ function Nav() {
   function setPortfolio() {
     setPage(state => {
       return {home: inactiveClass, reel: inactiveClass, portfolio: activeClass, testimonial: inactiveClass,
-        contact: inactiveClass};
+        contact: inactiveClass, music: inactiveClass};
         }
       );
     }
@@ -42,7 +43,7 @@ function Nav() {
   function setTestimonial() {
   setPage(state => {
     return {home: inactiveClass, reel: inactiveClass, portfolio: inactiveClass, testimonial: activeClass,
-      contact: inactiveClass};
+      contact: inactiveClass, music: inactiveClass};
       }
     );
   }
@@ -50,7 +51,7 @@ function Nav() {
   function setContact() {
   setPage(state => {
     return {home: inactiveClass, reel: inactiveClass, portfolio: inactiveClass, testimonial: inactiveClass,
-      contact: activeClass};
+      contact: activeClass, music: inactiveClass};
       }
     );
   }
@@ -58,10 +59,18 @@ function Nav() {
   function setReel() {
     setPage(state => {
       return {home: inactiveClass, reel: activeClass, portfolio: inactiveClass, testimonial: inactiveClass,
-        contact: inactiveClass};
+        contact: inactiveClass, music: inactiveClass};
         }
       );
     }
+
+    function setMusic() {
+      setPage(state => {
+        return {home: inactiveClass, reel: inactiveClass, portfolio: inactiveClass, testimonial: inactiveClass,
+          contact: inactiveClass, music: activeClass};
+          }
+        );
+      }
 
   return (   
       <div className = "nav-container">
@@ -78,6 +87,9 @@ function Nav() {
             </li>
             <li className = {pageState.portfolio.menu} onClick={setPortfolio}>
               Portfolio
+            </li>
+            <li className = {pageState.music.menu} onClick={setMusic}>
+              Music Implementation
             </li>
             <li className = {pageState.testimonial.menu} onClick={setTestimonial}>
               Testimonial

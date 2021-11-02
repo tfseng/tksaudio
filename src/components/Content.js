@@ -4,6 +4,7 @@ import Home from './Contents/Home'
 import Testimonials from './Contents/Testimonials'
 import Reel from './Contents/Reel'
 import Contact from './Contents/Contact'
+import Music from './Contents/Music'
 
 function Content(props) {
 
@@ -14,6 +15,7 @@ function Content(props) {
             <Portfolio page = {props.page}/>
             <Reel page = {props.page} />
             <Contact page = {props.page} />
+            <Music page = {props.page} />
           </div>
     )
 }
