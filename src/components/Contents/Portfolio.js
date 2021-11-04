@@ -64,7 +64,7 @@ function Portfolio(props) {
                 </div>
                 <div>
                     <iframe title = "video" className = "portfolio-video"
-                        src="https://www.youtube.com/embed/zN6FS7fYl18" allowFullScreen="allowFullScreen"
+                        src="https://www.youtube.com/embed/Zwxq5ZGbYCQ" allowFullScreen="allowFullScreen"
                         mozallowfullscreen="mozallowfullscreen" 
                         msallowfullscreen="msallowfullscreen" 
                         oallowfullscreen="oallowfullscreen" 
@@ -79,7 +79,7 @@ function Portfolio(props) {
                 </div>
                 <div>
                     <iframe title = "video" className = "portfolio-video"
-                        src="https://www.youtube.com/embed/JIhIaeH5j5Q" allowFullScreen="allowFullScreen"
+                        src="https://www.youtube.com/embed/1kKKcHxpLdQ" allowFullScreen="allowFullScreen"
                         mozallowfullscreen="mozallowfullscreen" 
                         msallowfullscreen="msallowfullscreen" 
                         oallowfullscreen="oallowfullscreen" 
@@ -110,7 +110,7 @@ function Portfolio(props) {
                 </div>
                 <div>
                     <iframe title = "video" className = "portfolio-video"
-                        src="https://www.youtube.com/embed/29BCOqj3ZU4" allowFullScreen="allowFullScreen"
+                        src="https://www.youtube.com/embed/cArxRN0-CkY" allowFullScreen="allowFullScreen"
                         mozallowfullscreen="mozallowfullscreen" 
                         msallowfullscreen="msallowfullscreen" 
                         oallowfullscreen="oallowfullscreen" 

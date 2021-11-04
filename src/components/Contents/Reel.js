@@ -14,7 +14,7 @@ function Reel(props) {
                 </div>
                 <div>
                     <iframe title = "video" className = "portfolio-video"
-                        src="https://www.youtube.com/embed/y55-WfPsjTw" allowFullScreen="allowFullScreen"
+                        src="https://www.youtube.com/embed/ccHvj2hy3w0" allowFullScreen="allowFullScreen"
                         mozallowfullscreen="mozallowfullscreen" 
                         msallowfullscreen="msallowfullscreen" 
                         oallowfullscreen="oallowfullscreen" 
