@@ -62,7 +62,7 @@ function Music(props) {
                 </div>
                 <div>
                     <iframe title = "video" className = "portfolio-video"
-                        src="https://youtube.com/embed/W1ehFnPbvmo" allowFullScreen="allowFullScreen"
+                        src="https://youtube.com/embed/WZXQZyMpOvE" allowFullScreen="allowFullScreen"
                         mozallowfullscreen="mozallowfullscreen" 
                         msallowfullscreen="msallowfullscreen" 
                         oallowfullscreen="oallowfullscreen" 
@@ -77,7 +77,7 @@ function Music(props) {
                 </div>
                 <div>
                     <iframe title = "video" className = "portfolio-video"
-                        src="https://youtube.com/embed/_Na9VtsijjE" allowFullScreen="allowFullScreen"
+                        src="https://youtube.com/embed/qRnIrgRhqmE" allowFullScreen="allowFullScreen"
                         mozallowfullscreen="mozallowfullscreen" 
                         msallowfullscreen="msallowfullscreen" 
                         oallowfullscreen="oallowfullscreen" 

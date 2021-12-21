@@ -64,7 +64,7 @@ function Portfolio(props) {
                 </div>
                 <div>
                     <iframe title = "video" className = "portfolio-video"
-                        src="https://www.youtube.com/embed/Zwxq5ZGbYCQ" allowFullScreen="allowFullScreen"
+                        src="https://www.youtube.com/embed/8OxL_zTzyNA" allowFullScreen="allowFullScreen"
                         mozallowfullscreen="mozallowfullscreen" 
                         msallowfullscreen="msallowfullscreen" 
                         oallowfullscreen="oallowfullscreen" 
@@ -79,7 +79,7 @@ function Portfolio(props) {
                 </div>
                 <div>
                     <iframe title = "video" className = "portfolio-video"
-                        src="https://www.youtube.com/embed/1kKKcHxpLdQ" allowFullScreen="allowFullScreen"
+                        src="https://www.youtube.com/embed/sChpSQmyY90" allowFullScreen="allowFullScreen"
                         mozallowfullscreen="mozallowfullscreen" 
                         msallowfullscreen="msallowfullscreen" 
                         oallowfullscreen="oallowfullscreen" 
@@ -94,7 +94,7 @@ function Portfolio(props) {
                 </div>
                 <div>
                     <iframe title = "video" className = "portfolio-video"
-                        src="https://www.youtube.com/embed/4GzP6y9lWEM" allowFullScreen="allowFullScreen"
+                        src="https://www.youtube.com/embed/6J2KyhNgCWk" allowFullScreen="allowFullScreen"
                         mozallowfullscreen="mozallowfullscreen" 
                         msallowfullscreen="msallowfullscreen" 
                         oallowfullscreen="oallowfullscreen" 
@@ -110,7 +110,7 @@ function Portfolio(props) {
                 </div>
                 <div>
                     <iframe title = "video" className = "portfolio-video"
-                        src="https://www.youtube.com/embed/cArxRN0-CkY" allowFullScreen="allowFullScreen"
+                        src="https://www.youtube.com/embed/ZfbS6l4vGrQ" allowFullScreen="allowFullScreen"
                         mozallowfullscreen="mozallowfullscreen" 
                         msallowfullscreen="msallowfullscreen" 
                         oallowfullscreen="oallowfullscreen" 
