@@ -73,11 +73,42 @@ function Music(props) {
             <div className = {presentationState.two.presentation}>
                 <div className = "portfolio-text">
                     <h1 className = "portfolio-header">Unity Game Demo Music Implementation</h1>
+                  
                     <p className = "portfolio-text">Here is a showcase of music compositions that I wrote, produced and implemented into an Untitled Unity Game Demo. The music was implemented directly into the Unity game engine. For this game, I wrote two contrasting vertical music scores, a ‘Stealth’ score and a ‘Panic’ score, that cross faded into one another as a different scene in the game is triggered. The game starts with the ‘Stealth’ score being looped in the background and transitions into the ‘Panic’ score when the player alerts the guards in the game, completely shifting the mood and intensity to complement the game’s setting. I also designed and implemented the other audio elements in this demo showcase.</p>
                 </div>
                 <div>
                     <iframe title = "video" className = "portfolio-video"
                         src="https://youtube.com/embed/qRnIrgRhqmE" allowFullScreen="allowFullScreen"
+                        mozallowfullscreen="mozallowfullscreen" 
+                        msallowfullscreen="msallowfullscreen" 
+                        oallowfullscreen="oallowfullscreen" 
+                        webkitallowfullscreen="webkitallowfullscreen">
+                    </iframe>
+                </div>
+            </div> 
+            <div className = {presentationState.three.presentation}>
+                <div className = "portfolio-text">
+                    <h1 className = "portfolio-header">AngryBots Audio Implementation</h1>
+                    <p className = "portfolio-text">Here is my approach to the audio design and implementation of the Unity Game Demo, AngryBots. To create the sounds used in this project, I combined the use of self-recorded Foley SFXs and edited Sounds taken from my Sound Libraries to realize my audio vision of the game. I then implemented the sounds through the audio middleware, Audiokinetic Wwise, into Unity Engine.</p>
+                </div>
+                <div>
+                    <iframe title = "video" className = "portfolio-video"
+                        src="https://www.youtube.com/embed/sChpSQmyY90" allowFullScreen="allowFullScreen"
+                        mozallowfullscreen="mozallowfullscreen" 
+                        msallowfullscreen="msallowfullscreen" 
+                        oallowfullscreen="oallowfullscreen" 
+                        webkitallowfullscreen="webkitallowfullscreen">
+                    </iframe>
+                </div>
+            </div> 
+            <div className = {presentationState.four.presentation}>
+                <div className = "portfolio-text">
+                    <h1 className = "portfolio-header">LIMBO Audio Implementation</h1>
+                    <p className = "portfolio-text">Here is my approach to the audio design and implementation of the puzzle-platform video game, LIMBO, developed by independent studio Playdead. To create the sounds used in this project, I layered sounds taken from my SFX libraries to create the eerie ambiences and used several Foley techniques and self-recorded sounds to create the gore and spider SFXs. I then implemented the sounds through the audio middleware, Audiokinetic Wwise.</p>
+                </div>
+                <div>
+                    <iframe title = "video" className = "portfolio-video"
+                        src="https://www.youtube.com/embed/6J2KyhNgCWk" allowFullScreen="allowFullScreen"
                         mozallowfullscreen="mozallowfullscreen" 
                         msallowfullscreen="msallowfullscreen" 
                         oallowfullscreen="oallowfullscreen" 
@@ -92,7 +123,9 @@ function Music(props) {
                 </div> */}
                 <div className = "nav-dots">
                     <span className={presentationState.one.dot} onClick={setOne}></span> 
-                    <span className={presentationState.two.dot} onClick={setTwo}></span> 
+                    <span className={presentationState.two.dot} onClick={setTwo}></span>
+                    <span className={presentationState.three.dot} onClick={setThree}></span>
+                    <span className={presentationState.four.dot} onClick={setFour}></span>  
                 </div>
                 {/* <div className = "nav-arrow">
                     <FontAwesomeIcon icon={faArrowRight} />

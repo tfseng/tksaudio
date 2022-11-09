@@ -21,13 +21,14 @@ function Nav() {
     portfolio: inactiveClass,
     testimonial: inactiveClass,
     contact: inactiveClass,
-    music: inactiveClass
+    music: inactiveClass,
+    production: inactiveClass
   });
 
   function setHome() {
       setPage(state => {
         return {home: activeClass, reel: inactiveClass, portfolio: inactiveClass, testimonial: inactiveClass,
-          contact: inactiveClass, music: inactiveClass};
+          contact: inactiveClass, music: inactiveClass, production: inactiveClass};
           }
         ); 
       }
@@ -35,7 +36,7 @@ function Nav() {
   function setPortfolio() {
     setPage(state => {
       return {home: inactiveClass, reel: inactiveClass, portfolio: activeClass, testimonial: inactiveClass,
-        contact: inactiveClass, music: inactiveClass};
+        contact: inactiveClass, music: inactiveClass, production: inactiveClass};
         }
       );
     }
@@ -43,7 +44,7 @@ function Nav() {
   function setTestimonial() {
   setPage(state => {
     return {home: inactiveClass, reel: inactiveClass, portfolio: inactiveClass, testimonial: activeClass,
-      contact: inactiveClass, music: inactiveClass};
+      contact: inactiveClass, music: inactiveClass, production: inactiveClass};
       }
     );
   }
@@ -51,26 +52,34 @@ function Nav() {
   function setContact() {
   setPage(state => {
     return {home: inactiveClass, reel: inactiveClass, portfolio: inactiveClass, testimonial: inactiveClass,
-      contact: activeClass, music: inactiveClass};
+      contact: activeClass, music: inactiveClass, production: inactiveClass};
       }
     );
   }
 
-  function setReel() {
+  function setMusic() {
     setPage(state => {
-      return {home: inactiveClass, reel: activeClass, portfolio: inactiveClass, testimonial: inactiveClass,
-        contact: inactiveClass, music: inactiveClass};
+      return {home: inactiveClass, reel: inactiveClass, portfolio: inactiveClass, testimonial: inactiveClass,
+        contact: inactiveClass, music: activeClass, production: inactiveClass};
         }
       );
     }
 
-    function setMusic() {
-      setPage(state => {
-        return {home: inactiveClass, reel: inactiveClass, portfolio: inactiveClass, testimonial: inactiveClass,
-          contact: inactiveClass, music: activeClass};
-          }
-        );
-      }
+  function setProduction() {
+    setPage(state => {
+      return {home: inactiveClass, reel: inactiveClass, portfolio: inactiveClass, testimonial: inactiveClass,
+        contact: inactiveClass, music: inactiveClass, production: activeClass};
+        }
+      );
+    }
+
+  // function setReel() {
+  //   setPage(state => {
+  //     return {home: inactiveClass, reel: activeClass, portfolio: inactiveClass, testimonial: inactiveClass,
+  //       contact: inactiveClass, music: inactiveClass, production: inactiveClass};
+  //       }
+  //     );
+  //   }
 
   return (   
       <div className = "nav-container">
@@ -82,14 +91,14 @@ function Nav() {
             <li className = {pageState.home.menu} onClick={setHome}>
               Home
             </li>
-            <li className = {pageState.reel.menu} onClick={setReel}>
-              Demo Reel
-            </li>
             <li className = {pageState.portfolio.menu} onClick={setPortfolio}>
-              Portfolio
+              Game Audio
             </li>
             <li className = {pageState.music.menu} onClick={setMusic}>
-              Music Implementation
+              Music Application
+            </li>
+            <li className = {pageState.production.menu} onClick={setProduction}>
+              Music Production
             </li>
             <li className = {pageState.testimonial.menu} onClick={setTestimonial}>
               Testimonial

@@ -22,33 +22,41 @@ function Portfolio(props) {
         one: activeClass,
         two: inactiveClass,
         three: inactiveClass,
-        four: inactiveClass
+        four: inactiveClass,
+        five: inactiveClass
       });
 
       function setOne() {
         setPresentation(state => {
-          return {one: activeClass, two: inactiveClass, three: inactiveClass, four: inactiveClass};
+          return {one: activeClass, two: inactiveClass, three: inactiveClass, four: inactiveClass, five: inactiveClass};
           }
         );
       }
 
       function setTwo() {
         setPresentation(state => {
-          return {one: inactiveClass, two: activeClass, three: inactiveClass, four: inactiveClass};
+          return {one: inactiveClass, two: activeClass, three: inactiveClass, four: inactiveClass, five: inactiveClass};
           }
         );
       }
 
       function setThree() {
         setPresentation(state => {
-            return {one: inactiveClass, two: inactiveClass, three: activeClass, four: inactiveClass};
+            return {one: inactiveClass, two: inactiveClass, three: activeClass, four: inactiveClass, five: inactiveClass};
             }
           );
       }
 
       function setFour() {
         setPresentation(state => {
-            return {one: inactiveClass, two: inactiveClass, three: inactiveClass, four: activeClass};
+            return {one: inactiveClass, two: inactiveClass, three: inactiveClass, four: activeClass, five: inactiveClass};
+            }
+          );
+      }
+
+      function setFive() {
+        setPresentation(state => {
+            return {one: inactiveClass, two: inactiveClass, three: inactiveClass, four: inactiveClass, five: activeClass};
             }
           );
       }
@@ -57,6 +65,21 @@ function Portfolio(props) {
     return (
         <div className = {props.page.portfolio.page}>
             <div className = {presentationState.one.presentation}>
+                <div className = "portfolio-text">
+                    <h1 className = "portfolio-header">Game Audio Demo Reel</h1>
+                    <p className = "portfolio-text">Here is my Game Audio Demo Reel that I have created by editing and compiling clips from my other Game Audio Showcases. Enjoy!</p>
+                </div>
+                <div>
+                    <iframe title = "video" className = "portfolio-video"
+                        src="https://www.youtube.com/embed/4nbAuVUnKCc" allowFullScreen="allowFullScreen"
+                        mozallowfullscreen="mozallowfullscreen" 
+                        msallowfullscreen="msallowfullscreen" 
+                        oallowfullscreen="oallowfullscreen" 
+                        webkitallowfullscreen="webkitallowfullscreen">
+                    </iframe>
+                </div>
+            </div> 
+            <div className = {presentationState.two.presentation}>
                 <div className = "portfolio-text">
                     <h1 className = "portfolio-header">Overwatch Audio Redesign</h1>
                     <p className = "portfolio-text">Here is my approach to the audio design of the multiplayer first-person shooter game, Overwatch, developed and published by Blizzard Entertainment. For this project, I used a screen capture of clips within the game, edited and created my own sounds to synchronize them with the visuals. For this project, I used an extensive amount of Foley, self-recording and MIDI techniques to create the sounds, with only a few ambience sounds that were created through editing and layering sounds taken from my SFX libraries.</p>
@@ -72,7 +95,7 @@ function Portfolio(props) {
                     </iframe>
                 </div>
             </div> 
-            <div className = {presentationState.two.presentation}>
+            <div className = {presentationState.three.presentation}>
                 <div className = "portfolio-text">
                     <h1 className = "portfolio-header">AngryBots Audio Implementation</h1>
                     <p className = "portfolio-text">Here is my approach to the audio design and implementation of the Unity Game Demo, AngryBots. To create the sounds used in this project, I combined the use of self-recorded Foley SFXs and edited Sounds taken from my Sound Libraries to realize my audio vision of the game. I then implemented the sounds through the audio middleware, Audiokinetic Wwise, into Unity Engine.</p>
@@ -87,7 +110,7 @@ function Portfolio(props) {
                     </iframe>
                 </div>
             </div> 
-            <div className = {presentationState.three.presentation}>
+            <div className = {presentationState.four.presentation}>
                 <div className = "portfolio-text">
                     <h1 className = "portfolio-header">LIMBO Audio Implementation</h1>
                     <p className = "portfolio-text">Here is my approach to the audio design and implementation of the puzzle-platform video game, LIMBO, developed by independent studio Playdead. To create the sounds used in this project, I layered sounds taken from my SFX libraries to create the eerie ambiences and used several Foley techniques and self-recorded sounds to create the gore and spider SFXs. I then implemented the sounds through the audio middleware, Audiokinetic Wwise.</p>
@@ -102,7 +125,7 @@ function Portfolio(props) {
                     </iframe>
                 </div>
             </div> 
-            <div className = {presentationState.four.presentation}>
+            <div className = {presentationState.five.presentation}>
                 <div className = "portfolio-text">
                     <h1 className = "portfolio-header">The Last of Us Audio Redesign</h1>
                     <p className = "portfolio-text">Here is my approach to the audio design of the action-adventure game, The Last of Us, developed by Naughty Dog and published by Sony Computer Entertainment.
@@ -127,6 +150,7 @@ function Portfolio(props) {
                     <span className={presentationState.two.dot} onClick={setTwo}></span> 
                     <span className={presentationState.three.dot} onClick={setThree}></span>
                     <span className={presentationState.four.dot} onClick={setFour}></span> 
+                    <span className={presentationState.five.dot} onClick={setFive}></span> 
                 </div>
                 {/* <div className = "nav-arrow">
                     <FontAwesomeIcon icon={faArrowRight} />

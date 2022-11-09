@@ -1,6 +1,8 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Nav from './components/Nav'
 import background from "./assets/bg.png";
+
 
 function App() {
   return (
