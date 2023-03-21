@@ -1,27 +1,31 @@
 {
   "files": {
-    "main.css": "/static/css/main.4caee973.chunk.css",
-    "main.js": "/static/js/main.a694400a.chunk.js",
-    "main.js.map": "/static/js/main.a694400a.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.a8c8eae6.js",
-    "runtime-main.js.map": "/static/js/runtime-main.a8c8eae6.js.map",
-    "static/js/2.fd09f324.chunk.js": "/static/js/2.fd09f324.chunk.js",
-    "static/js/2.fd09f324.chunk.js.map": "/static/js/2.fd09f324.chunk.js.map",
-    "static/js/3.39e4f3d4.chunk.js": "/static/js/3.39e4f3d4.chunk.js",
-    "static/js/3.39e4f3d4.chunk.js.map": "/static/js/3.39e4f3d4.chunk.js.map",
+    "main.css": "/static/css/main.c827e36e.chunk.css",
+    "main.js": "/static/js/main.a1a85eb6.chunk.js",
+    "main.js.map": "/static/js/main.a1a85eb6.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.55a8be0a.js",
+    "runtime-main.js.map": "/static/js/runtime-main.55a8be0a.js.map",
+    "static/css/2.0a9ec390.chunk.css": "/static/css/2.0a9ec390.chunk.css",
+    "static/js/2.e6c3f48c.chunk.js": "/static/js/2.e6c3f48c.chunk.js",
+    "static/js/2.e6c3f48c.chunk.js.map": "/static/js/2.e6c3f48c.chunk.js.map",
+    "static/js/3.f4ed60dc.chunk.js": "/static/js/3.f4ed60dc.chunk.js",
+    "static/js/3.f4ed60dc.chunk.js.map": "/static/js/3.f4ed60dc.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.4caee973.chunk.css.map": "/static/css/main.4caee973.chunk.css.map",
-    "static/js/2.fd09f324.chunk.js.LICENSE.txt": "/static/js/2.fd09f324.chunk.js.LICENSE.txt",
+    "static/css/2.0a9ec390.chunk.css.map": "/static/css/2.0a9ec390.chunk.css.map",
+    "static/css/main.c827e36e.chunk.css.map": "/static/css/main.c827e36e.chunk.css.map",
+    "static/js/2.e6c3f48c.chunk.js.LICENSE.txt": "/static/js/2.e6c3f48c.chunk.js.LICENSE.txt",
     "static/media/bg.db7f1523.png": "/static/media/bg.db7f1523.png",
+    "static/media/test.79f9ee45.mp3": "/static/media/test.79f9ee45.mp3",
     "static/media/tk_logo.6893d61f.png": "/static/media/tk_logo.6893d61f.png",
     "static/media/tk_overwatch_assets.ffd3966a.xlsx": "/static/media/tk_overwatch_assets.ffd3966a.xlsx",
-    "static/media/tk_resume.7e82836f.pdf": "/static/media/tk_resume.7e82836f.pdf",
+    "static/media/tk_resume.7d3f63d5.pdf": "/static/media/tk_resume.7d3f63d5.pdf",
     "static/media/tk_testimonial_one.1a295420.pdf": "/static/media/tk_testimonial_one.1a295420.pdf"
   },
   "entrypoints": [
-    "static/js/runtime-main.a8c8eae6.js",
-    "static/js/2.fd09f324.chunk.js",
-    "static/css/main.4caee973.chunk.css",
-    "static/js/main.a694400a.chunk.js"
+    "static/js/runtime-main.55a8be0a.js",
+    "static/css/2.0a9ec390.chunk.css",
+    "static/js/2.e6c3f48c.chunk.js",
+    "static/css/main.c827e36e.chunk.css",
+    "static/js/main.a1a85eb6.chunk.js"
   ]
 }
