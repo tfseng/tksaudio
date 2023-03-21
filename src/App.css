@@ -79,19 +79,19 @@ a {
 
 .active-menu {
   color: #fff;
-  font-size: 0.9em;
+  font-size: 0.6em;
 }
 
 .inactive-menu {
   color: #b4b4b4;
-  font-size: 0.8em;
+  font-size: 0.5em;
   transition-duration: 0.3s;
 }
 
 .inactive-menu:hover {
   cursor: pointer;
   color: #fff;
-  font-size: 0.9em;
+  font-size: 0.6em;
 }
 
 /* Page styles */
@@ -105,7 +105,7 @@ a {
 }
 
 .active-page {
-  margin-top: 20%;
+  margin-top: 22%;
   z-index: 1;
   opacity: 1;
 }
@@ -121,6 +121,7 @@ a {
 }
 
 .home-header {
+  font-size: 2em;
   animation: fadeIn 1s;
 }
 
@@ -168,14 +169,14 @@ a {
 }
 
 .testimonial-text {
-  font-size: 0.9em;
+  font-size: 0.8em;
   margin-bottom: 2em;
   animation: fadeInDelay 1.2s
 }
 
 .testimonial-testifier {
   text-align: right;
-  font-size: 0.8em;
+  font-size: 0.7em;
   animation: fadeInDelay 1.2s;
 }
 
@@ -216,7 +217,7 @@ a {
 
 .nav-dots {
   display: flex;
-  width: 50%;
+  width: 60vw;
   justify-content: space-between;
   margin-top: 1em;
 }

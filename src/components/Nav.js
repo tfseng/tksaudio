@@ -91,15 +91,17 @@ function Nav() {
             <li className = {pageState.home.menu} onClick={setHome}>
               Home
             </li>
-            <li className = {pageState.portfolio.menu} onClick={setPortfolio}>
-              Game Audio
-            </li>
-            <li className = {pageState.music.menu} onClick={setMusic}>
-              Music Application
-            </li>
             <li className = {pageState.production.menu} onClick={setProduction}>
-              Music Production
+              Music
             </li>
+            <li className = {pageState.portfolio.menu} onClick={setPortfolio}>
+              Sound Design
+            </li>
+            
+            <li className = {pageState.music.menu} onClick={setMusic}>
+              Music Implementation
+            </li>
+            
             <li className = {pageState.testimonial.menu} onClick={setTestimonial}>
               Testimonial
             </li>

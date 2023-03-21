@@ -1,5 +1,5 @@
 import React from 'react'
-import Resume from '../../assets/tk_resume.pdf'
+import Resume from '../../assets/TeenKarSeng_CV_Mar23.pdf'
 
 function Contact(props) {
     return (

@@ -86,36 +86,7 @@ function Music(props) {
                     </iframe>
                 </div>
             </div> 
-            <div className = {presentationState.three.presentation}>
-                <div className = "portfolio-text">
-                    <h1 className = "portfolio-header">AngryBots Audio Implementation</h1>
-                    <p className = "portfolio-text">Here is my approach to the audio design and implementation of the Unity Game Demo, AngryBots. To create the sounds used in this project, I combined the use of self-recorded Foley SFXs and edited Sounds taken from my Sound Libraries to realize my audio vision of the game. I then implemented the sounds through the audio middleware, Audiokinetic Wwise, into Unity Engine.</p>
-                </div>
-                <div>
-                    <iframe title = "video" className = "portfolio-video"
-                        src="https://www.youtube.com/embed/sChpSQmyY90" allowFullScreen="allowFullScreen"
-                        mozallowfullscreen="mozallowfullscreen" 
-                        msallowfullscreen="msallowfullscreen" 
-                        oallowfullscreen="oallowfullscreen" 
-                        webkitallowfullscreen="webkitallowfullscreen">
-                    </iframe>
-                </div>
-            </div> 
-            <div className = {presentationState.four.presentation}>
-                <div className = "portfolio-text">
-                    <h1 className = "portfolio-header">LIMBO Audio Implementation</h1>
-                    <p className = "portfolio-text">Here is my approach to the audio design and implementation of the puzzle-platform video game, LIMBO, developed by independent studio Playdead. To create the sounds used in this project, I layered sounds taken from my SFX libraries to create the eerie ambiences and used several Foley techniques and self-recorded sounds to create the gore and spider SFXs. I then implemented the sounds through the audio middleware, Audiokinetic Wwise.</p>
-                </div>
-                <div>
-                    <iframe title = "video" className = "portfolio-video"
-                        src="https://www.youtube.com/embed/6J2KyhNgCWk" allowFullScreen="allowFullScreen"
-                        mozallowfullscreen="mozallowfullscreen" 
-                        msallowfullscreen="msallowfullscreen" 
-                        oallowfullscreen="oallowfullscreen" 
-                        webkitallowfullscreen="webkitallowfullscreen">
-                    </iframe>
-                </div>
-            </div> 
+            
            
             <div className = "content-nav">
                 {/* <div className = "nav-arrow">
@@ -124,8 +95,7 @@ function Music(props) {
                 <div className = "nav-dots">
                     <span className={presentationState.one.dot} onClick={setOne}></span> 
                     <span className={presentationState.two.dot} onClick={setTwo}></span>
-                    <span className={presentationState.three.dot} onClick={setThree}></span>
-                    <span className={presentationState.four.dot} onClick={setFour}></span>  
+
                 </div>
                 {/* <div className = "nav-arrow">
                     <FontAwesomeIcon icon={faArrowRight} />
