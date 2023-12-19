@@ -8,7 +8,6 @@ function Contact(props) {
                 <div>
                     <h1 className = "home-header">Contact Me</h1>
                     <p className = "contact-text">Email: teenkar@gmail.com<br></br>Website: tksaudio.com</p>
-                    <div className = "home-resume"><a style={{ textDecoration: "underline" }}target = "blank"href = {Resume}>Download Resume</a></div> 
                 </div>
             </div>
         </div>

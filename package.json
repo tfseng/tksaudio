@@ -2,7 +2,7 @@
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://tfseng.github.io",
+  "homepage": "https://tfseng.github.io/tksaudio",
   "dependencies": {
     "@benestudioco/react-scrollfade": "^1.0.2",
     "@fortawesome/fontawesome-svg-core": "^1.2.36",

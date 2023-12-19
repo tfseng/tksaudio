@@ -3,7 +3,9 @@ import { useState } from 'react'
 import overwatchAssets from '../../assets/tk_overwatch_assets.xlsx'
 import juggernautScore from '../../assets/scores/TeenKarSeng_Juggernaut_Score.pdf'
 import eyesInTheDuskScore from '../../assets/scores/TeenKarSeng_EyesintheDusk_Score.pdf'
-import camelotScore from '../../assets/scores/TeenKarSeng_Camelot_Score.pdf'
+import toyboxScore from '../../assets/scores/TeenKarSeng_ToyboxBreakout_Score.pdf'
+import pulseScore from '../../assets/scores/TeenKarSeng_PulseofthePursuit_Score.pdf'
+
 
 function Production(props) {
 
@@ -99,13 +101,13 @@ function Production(props) {
             </div> 
             <div className = {presentationState.three.presentation}>
                 <div className = "portfolio-text">
-                    <h1 className = "portfolio-header">Camelot</h1>
-                    <p className = "portfolio-text">My original composition titled "Camelot" scored to a short clip from the film "Shrek 2".</p>
-                    <p className = "home-resume"><a style={{ textDecoration: "underline" }}target = "blank"href = {camelotScore}>Full Score</a></p>
+                    <h1 className = "portfolio-header">Toybox Breakout</h1>
+                    <p className = "portfolio-text">Here is an original composition I wrote titled "Toybox Breakout" rescored to a scene from the movie "Toy Story 3".</p>
+                    <p className = "home-resume"><a style={{ textDecoration: "underline" }}target = "blank"href = {toyboxScore}>Full Score</a></p>
                 </div>
                 <div>
                     <iframe title = "video" className = "portfolio-video"
-                        src="https://www.youtube.com/embed/8xr5AJ15_bA" allowFullScreen="allowFullScreen"
+                        src="https://www.youtube.com/embed/rhJgpDLVtdg" allowFullScreen="allowFullScreen"
                         mozallowfullscreen="mozallowfullscreen" 
                         msallowfullscreen="msallowfullscreen" 
                         oallowfullscreen="oallowfullscreen" 
@@ -115,17 +117,14 @@ function Production(props) {
             </div> 
             <div className = {presentationState.four.presentation}>
                 <div className = "portfolio-text">
-                    <h1 className = "portfolio-header">Second First Kiss</h1>
+                    <h1 className = "portfolio-header">Pulse of the Pursuit</h1>
                     <p style={{width:"35vw"}}className = "portfolio-text">
-                        Artist: Eric Chen Yiqin
-                        <br></br>
-                        Song by: Eric Chen Yiqin
-                        <br></br>
-                        Produced & Mixed by: Teen Kar Seng</p>
+                        Here is an original composition I wrote titled "Pulse of the Pursuit", scored to a chase scene from the movie "Bolt".</p>
+                    <p className = "home-resume"><a style={{ textDecoration: "underline" }}target = "blank"href = {pulseScore}>Full Score</a></p>
                 </div>
                 <div>
                     <iframe title = "video" className = "portfolio-video"
-                        src="https://www.youtube.com/embed/FCEh0rFCtHo" allowFullScreen="allowFullScreen"
+                        src="https://www.youtube.com/embed/k34TaP-7Dd8" allowFullScreen="allowFullScreen"
                         mozallowfullscreen="mozallowfullscreen" 
                         msallowfullscreen="msallowfullscreen" 
                         oallowfullscreen="oallowfullscreen" 
